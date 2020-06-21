@@ -1,0 +1,71 @@
+body {
+ 	margin: 0;
+ 	font-family: "Hiragino Kaku Gothic ProN";
+}
+
+header {
+	height:100px;
+	background:rgba(250,0,0,0.5);
+	margin-top:0;
+	width:100%;
+}
+
+header p {
+	font-size:30px;
+	color:#fff;
+	float:left;
+	padding:0 20px;
+}
+
+.header-right {
+	float:right;
+	padding:0 20px;
+	color:#fff
+}
+
+.top-wrapper {
+	height:300px;
+	background-image:url(https://images.unsplash.com/photo-1476085259528-8b1839cff31c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
+	background-size:cover;
+}
+
+.heading {
+	text-align:center;
+	padding-top:50px;
+}
+
+.heading h1 {
+	font-size:40px;
+}
+
+.heading p {
+	font-size:20px;
+}
+
+.intro-wrapper {
+	background-color:#ffffe0;
+}
+
+.intro-wrapper h2{
+	text-align:center;
+	border-bottom: 5px solid #000;
+}
+
+.intro-wrapper p {
+	padding-left:20px;
+}
+
+.hobby-list {
+	height:200px;
+}
+
+.hobby-wrapper h2 {
+	text-align:center;
+	border-bottom: 5px solid #000;
+}
+
+.hobbies{
+	float:left;
+	width:30%;
+	text-align:center;
+}
