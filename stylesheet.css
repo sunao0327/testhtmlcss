@@ -1,6 +1,7 @@
 body {
  	margin: 0;
  	font-family: "Hiragino Kaku Gothic ProN";
+ 	width:100%;
 }
 
 header {
@@ -10,18 +11,52 @@ header {
 	width:100%;
 }
 
-header p {
-	font-size:30px;
+.header-logo {
+	text-align:center;
+	line-height:100px;
+	font-size:45px;
 	color:#fff;
-	float:left;
-	padding:0 20px;
 }
 
-.header-right {
-	float:right;
-	padding:0 20px;
-	color:#fff
+
+
+nav{
+border-bottom: 1px solid #ccc;
 }
+nav ul{
+display: table;
+margin: 0 auto;
+padding: 0;
+width: 80%;
+text-align: center;
+}
+nav ul li{
+display: table-cell;
+min-width: 50px;
+border-right: 1px solid #ccc;
+}
+nav ul li:first-child{
+border-left: 1px solid #ccc;
+}
+nav ul li a{
+display: block;
+width: 100%;
+padding: 10px 0;
+text-decoration: none;
+color: #aaa;
+}
+nav ul li a:hover{
+background-color:#f5f5f5;
+}
+nav ul li.current{
+font-weight: bold;
+}
+nav ul li.current a{
+border-bottom: 5px solid #00B0F0;
+color: #00B0F0;
+}
+
+
 
 .top-wrapper {
 	height:300px;
@@ -29,39 +64,26 @@ header p {
 	background-size:cover;
 }
 
-.heading {
+.container h1{
 	text-align:center;
-	padding-top:50px;
+	line-height:300px;
 }
 
-.heading h1 {
+.top-wrapper h1 {
 	font-size:40px;
-}
-
-.heading p {
-	font-size:20px;
 }
 
 .intro-wrapper {
 	background-color:#ffffe0;
 }
 
-.intro-wrapper h2{
-	text-align:center;
-	border-bottom: 5px solid #000;
-}
-
 .intro-wrapper p {
 	padding-left:20px;
-	color:#fff;
+	color:#000;
 }
 
 .hobby-list {
 	height:200px;
-}
-
-.hobby-wrapper h2 {
-	border-bottom: 5px solid #000;
 }
 
 .hobbies{
@@ -76,31 +98,58 @@ header p {
 	height:1000px;
 	}
 
-.study-wrapper h2 {
-	border-bottom: 5px solid #000;
-	text-align:center;
-	 
-}
 
 .study {
 	position:relative;
 	height:300px;
+	margin-left:120px;
 }
 
-.study p {
-	position:absolute;
+.study h3 {
+	position: absolute;
 	top:20px;
-	left:10px;
-	font-size:20px;
+	left:50px;
+	color:#fff;
+	font-size:30px;
+	background:rgba(0, 0, 0,0.5);
+}
+
+.study p{
+	float:right;
+	padding:50px 200px;
+	font-size:50px;
+}
+
+
+h2 {
+	text-align:center;
+	border-bottom:3px solid #000;
 }
 
 .portfolio {
 	background-color:#a9a9a9;
+	text-align:center;
 }
 
 .portfolio a {
 	display:block;
 	text-align:center;	
+}
+
+.contact-wrapper {
+	height:200px;
+	margin-bottom:30px;
+	width:50%:
+	}
+
+.cont {
+	float:left;
+	width:50%;
+	text-align:center;
+	}
+
+.cont p {
+	font-size:20px;
 }
 
 footer {
@@ -126,3 +175,4 @@ footer a:hover {
 	background:rgba(250,0,0,0.1);
 	cursor:pointer;
 }	
+
